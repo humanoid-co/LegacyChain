@@ -1,0 +1,21 @@
+{
+  "name": "legacychain-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "chain": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "verify:contract": "hardhat run scripts/verify-demo.js --network localhost",
+    "test": "hardhat test",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "chai": "^4.5.0",
+    "ethers": "^6.13.4",
+    "express": "^4.21.2",
+    "hardhat": "^2.22.15"
+  }
+}
