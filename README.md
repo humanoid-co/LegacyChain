@@ -1,5 +1,7 @@
 # LegacyChain — local hackathon prototype
 
+> The blockchain that activates when you can't.
+
 LegacyChain is a **demo-only** digital legacy flow. A local Solidity vault holds test ETH, a frontend Life Score simulation triggers state transitions, and two of three local demo guardians unlock an on-chain release.
 
 > Deliberate demo shortcuts: no authentication, no database, no real biometrics/AI, no key custody, public Hardhat demo accounts, and no real asset integrations. Never deploy or fund this contract on a public network.
